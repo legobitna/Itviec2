@@ -12,10 +12,11 @@ function useQuery() {
 const QUERYSTR_PREFIX = "q";
 
 export default function Jobs() {
-  let [originalJobs, setOriginalJobs] = useState([]);
   let [jobs, setJobs] = useState([]);
+  let [originalJobs, setOriginalJobs] = useState([]);
   let history = useHistory();
   let query = useQuery();
+
   let [keyword, setKeyword] = useState(query.get(QUERYSTR_PREFIX));
 
   const getData = async () => {
@@ -26,25 +27,21 @@ export default function Jobs() {
     let result = await data.json();
     console.log("rr", result);
     setOriginalJobs(result);
-    //setJobs(result)
+    setJobs(result);
   };
 
   const handleSearch = (e) => {
-    let filteredJobs = originalJobs;
-    //let filteredJobs = [];
-    console.log("hehe", keyword);
     if (e) {
       e.preventDefault();
-      history.push(`/jobs/?${QUERYSTR_PREFIX}=${encodeURIComponent(keyword)}`);
+      history.push(`/jobs?${QUERYSTR_PREFIX}=${encodeURIComponent(keyword)}`);
     }
+
     if (keyword) {
-      filteredJobs = originalJobs.filter((job) =>
+      let filteredList = originalJobs.filter((job) =>
         job.title.toLowerCase().includes(keyword.toLowerCase())
       );
-      //setJobs(filteredJobs);
+      setJobs(filteredList);
     }
-    console.log("filterdjob", filteredJobs);
-    setJobs(filteredJobs);
   };
 
   useEffect(() => {
@@ -67,7 +64,7 @@ export default function Jobs() {
               src="./images/itviec.png"
             />
           </Col>
-          <Form onSubmit={handleSearch}>
+          <Form onSubmit={(e) => handleSearch(e)}>
             <Row className="search-form-wrapper">
               <Col xs={12} md={10}>
                 <div className="search-section-wrapper">
@@ -79,7 +76,7 @@ export default function Jobs() {
 
                     <Col col={12}>
                       <input
-                        value={keyword}
+                        // value={keyword}
                         type="text"
                         className="search-box"
                         placeholder="Keyword skill(Java,IOS...),Job Title..."

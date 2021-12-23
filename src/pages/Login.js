@@ -4,13 +4,15 @@ import { useDispatch, useSelector } from "react-redux";
 import { Redirect } from "react-router-dom";
 import * as authAction from "../store/actions/authaction";
 
-export default function Login({ user, login, error, loading }) {
+export default function Login({ login }) {
   let [email, setEmail] = useState("");
   let [password, setPassword] = useState("");
+  let loading = false;
 
-  if (user.isAuthenticated == true) {
-    return <Redirect to="/" />;
-  }
+  // if (user.isAuthenticated == true) {
+  //   return <Redirect to="/" />;
+  // }
+
   return (
     <div className="App">
       <div className="navigation">
@@ -18,7 +20,7 @@ export default function Login({ user, login, error, loading }) {
           <img className="logo-itviec" alt="itviec" src="/images/itviec.png" />
         </Container>
       </div>
-      {error ? <Alert variant="danger">{error}</Alert> : <></>}
+      {/* {error ? <Alert variant="danger">{error}</Alert> : <></>} */}
       <Container className="middle">
         <Form
           className="white-container"
@@ -32,8 +34,10 @@ export default function Login({ user, login, error, loading }) {
             <Form.Label>Email address</Form.Label>
             <Form.Control
               type="email"
-              placeholder="Enter email"
-              onChange={(e) => setEmail(e.target.value)}
+              placeholder="xxxxx@gmail.com"
+              onChange={(event) => {
+                setEmail(event.target.value);
+              }}
             />
             <Form.Text className="text-muted">
               We'll never share your email with anyone else.
