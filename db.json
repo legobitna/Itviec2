@@ -2,7 +2,7 @@
   "jobs": [
     {
       "id": 0,
-      "img": "https://github.com/legobitna/Itviec2/blob/master/public/images/Logo1.png",
+      "img": "https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMC94SFE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e4f999b345e8af8cd4cc23ee9e70dd07b1bdaa0a/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2RwUm1sRyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--d55b6722f71e82d147ad94b8445be27797820f9f/Asset%201@4x.png",
       "title": "Designer -Balancing/Mid-core 3D RPG",
       "salary": "2500",
       "city": "Ho Chi Minh",
@@ -23,7 +23,7 @@
     },
     {
       "id": 1,
-      "img": "https://github.com/legobitna/Itviec2/blob/master/public/images/Logo2.png",
+      "img": "https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBek45SUE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--c98735a40246873afb46e360cd0b8cb190876de0/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2RwUm1sRyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--d55b6722f71e82d147ad94b8445be27797820f9f/Frame%2021.png",
       "title": "Software Engineer (Linux, Agile)",
       "salary": 2000,
       "city": "Ho Chi Minh",
@@ -43,7 +43,7 @@
     },
     {
       "id": 2,
-      "img": "https://github.com/legobitna/Itviec2/blob/master/public/images/Logo3.png",
+      "img": "https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBM0E3SHc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--98ad6550665270931a546757db0e58f65b0505bc/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2RwUm1sRyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--d55b6722f71e82d147ad94b8445be27797820f9f/MoMo%20Logo.png",
       "title": "NodeJS Developer (JavaScript, HTML5)",
       "salary": 2500,
       "city": "Ha Noi",
@@ -64,7 +64,7 @@
     },
     {
       "id": 3,
-      "img": "https://github.com/legobitna/Itviec2/blob/master/public/images/Logo4.png",
+      "img": "https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOTh3RXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--1334499b5be770f421cdd56db873c3e20756036f/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2RwUm1sRyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--d55b6722f71e82d147ad94b8445be27797820f9f/0.png",
       "title": "Technical Leader (PHP, JavaScript)",
       "salary": 3000,
       "city": "Ha Noi",
@@ -85,7 +85,7 @@
     },
     {
       "id": 4,
-      "img": "https://github.com/legobitna/Itviec2/blob/master/public/images/Logo5.png",
+      "img": "https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeEY0SXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--419328ea02e4618fdcefd2c960fb8481def75222/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJVUU1SEJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2RwUm1sRyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--d14c81992e54b8fe39b4f22017b9c72f4b5e306b/oode.PNG",
       "title": "All levels Frontend (JavaScript/ReactJS)",
       "salary": 3000,
       "city": "Ho Chi Minh",
@@ -106,7 +106,7 @@
     },
     {
       "id": 5,
-      "img": "https://github.com/legobitna/Itviec2/blob/master/public/images/Logo6.png",
+      "img": "https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBN1E5RkE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--ce9ec6cf6dc4950334db36b87c747bc37329c591/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2RwUm1sRyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--d55b6722f71e82d147ad94b8445be27797820f9f/download.png",
       "title": "Front - end Developer (ReactJS)",
       "salary": 5000,
       "city": "Ho Chi Minh",
